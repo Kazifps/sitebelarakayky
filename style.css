@@ -1,0 +1,700 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Questrial", sans-serif;
+    ;
+}
+
+#principal {
+    height: 93.5vh;
+    background-image: url(h1_hero1.jpg);
+    background-color: rgba(0, 0, 0, 0.45);
+    background-blend-mode: multiply;
+    position: relative;
+}
+
+header>img {
+    vertical-align: middle;
+    margin-top: 5vh;
+    margin-left: 15%;
+    margin-bottom: 5vh;
+}
+
+header>a { color: white;
+text-decoration: none;}
+
+.tel { font-size: 18px;
+    margin-left: 40%;
+}
+
+.btn_free {
+    margin-left: 2%;
+    background-color: #D6A04C;
+    padding: 14px 24px;
+    border-color: #D6A04C;
+    border-style:solid;
+    border-width:1px;   
+    
+}
+.btn_free:hover{
+    background-color:transparent;
+    color: #D6A04C;
+    transition-duration: 0.5s;
+}
+
+#menu { display: inline-block;
+margin-left: 2%;
+width: 2.5%;
+}
+
+#menu>span { display: inline-block;
+width: 100%;
+border: solid white 1px;}
+
+#Home {
+    color: white;
+    margin-left: 22%;
+    font-size: 58px;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+    position: absolute;
+    top: 38vh;
+}
+
+#Salt { margin-left: 22%;
+font-size: 16px;
+margin-bottom: 10px;
+position: absolute;
+top: 35vh;
+color: #e9e3d9;}
+
+#YellowBox {
+    font-family: 20px;
+    margin-left: 4.2%;
+    line-height: 130%;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+#YellowBox2 {
+    font-size: 20px;
+    margin-left: 30%;
+    line-height: 130%;
+    position: relative;
+    top: 3%;
+}
+
+#YellowBox3 {
+    font-size: 20px;
+    margin-left: 44.4%;
+    line-height: 110%;
+    position: relative;
+    top: 10%;
+}
+
+#WorldClass {
+    background-color: #d6a04c;
+    position: absolute;
+    right: 0%;
+    margin-top: -2%;
+    width: 50%;
+    height: 12vh;
+    margin-top: 10.7%;
+    color: white;
+    bottom: 0;
+}
+
+#play{color: white;
+    position: absolute;
+    top: 45%;
+    right: 21%;
+    font-size: 20px;
+    display: inline-block;
+    font-family: "Questrial", sans-serif;}
+    
+    
+    #play>a{display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 30px;
+    position: relative;}
+    
+    #play>a>svg{height: 35px;
+    fill: #D6A04C;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-45%, -50%);}
+    
+    #play>a::after { content: "";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 50%;
+    z-index: 0;
+    }
+    
+    #play>a::before { content: "";
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background-color: transparent;
+        border: solid, 1px #D6A04C;
+        border-radius: 50%;
+        z-index: 0;
+        }
+    
+    #play>a:hover{background-color: #D6A04C;
+    transition: 0.3s;}
+    
+    #play>a:hover>svg{fill: white;}
+
+#embaixo {
+    background-color: #0a0016;
+    height: 96px;
+}
+
+#Lista{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    margin-left: 100%;
+    color:#fff;
+    background-color: #111111;
+    width: 335px;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    align-items: center;
+    transition: 1s;
+}
+#check{
+    position: absolute;
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: -50px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 100;
+}
+#check:checked~#Lista{
+    margin-left: 83%;
+    opacity: 1;
+    z-index: 999;
+    transition: 1s;
+}
+#MarcaDesmarca{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: questrial,sans-serif;
+    font-size: 18.88px;
+    justify-content: start;
+    margin-top: 38px;
+    margin-left: -230px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#MarcaDesmarca:hover{
+    color: #D6A04C;
+}
+#links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: Questrial,sans-serif;
+    font-size: 18.88px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+
+#pagina2 {
+    padding: 90px 0;
+    background-color: #0B0016;
+}
+
+.row {
+    width: auto;
+    height: 815px;
+    background-color: #0B0016;
+    font-family: "Questrial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.about-us {
+    width: 400px;
+    height: 89px;
+    padding: 0px 12px;
+    position: absolute;
+    left: 29vh;
+    top: 103vh;
+}
+
+.about-us h2 {
+    color: #fff;
+    font: 50px Cabin, sans-serif;
+    margin: 0px 0 21px;
+    padding: 2vh;
+}
+
+.row-image {
+    width: 15vh;
+    height: 653px;
+    background-color: #0B0016;
+    position: absolute;
+    top: 117vh;
+    left: 25vh;
+    margin: 0px - 12px;
+}
+
+.text-belara {
+    color: #E9E3D9;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+}
+
+.img1 {
+    position: absolute;
+    top: 22vh;
+}
+
+.text-theStudio {
+    color: #E9E3D9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+
+}
+
+.btn1 {
+    position: absolute;
+    top: 22vh;
+    color: #fff;
+    border: 1px solid #D6A04C;
+    padding: 19px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    border-radius: 0px;
+}
+
+.offset {
+    width: 450px;
+    height: 644px;
+    background-color: #0B0016;
+    position: absolute;
+    left: 19vh;
+}
+
+.offset2 {
+    width: 450px;
+    height: 644px;
+    background-color: #0B0016;
+    position: absolute;
+    left: 80vh;
+}
+
+.img2 {
+    position: absolute;
+    top: 33vh;
+}
+
+.row2 {
+    width: auto;
+    height: 630px;
+    background-color: #0B0016;
+    font-family: "Questrial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.What-We-Do {
+    width: 400px;
+    height: 89px;
+    padding: 0px 12px;
+    position: absolute;
+    top: 195vh;
+    left: 29vh;
+
+}
+
+.What-We-Do h2 {
+    color: #fff;
+    font: 50px Cabin, sans-serif;
+    margin: 0px 0 21px;
+    padding: 2vh;
+}
+
+.img-comercial {
+    width: 400px;
+    height: 450px;
+    background-color: #0B0016;
+    position: absolute;
+    top: 208vh;
+    left: 29vh;
+}
+
+.img-comercial img {
+    display: inherit;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    width: 100%;
+}
+
+.text-comercial {
+    width: 356px;
+    height: 79px;
+    font: 32px Cabin, sans-serif;
+    position: absolute;
+    top: 40vh;
+    color: #E9E3D9;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-weight: 400;
+    display: block;
+}
+
+.p {
+    font: 14px Questrial, sans-serif;
+    position: absolute;
+    top: 5vh;
+    color: #E9E3D9;
+    margin-bottom: 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.img-residential {
+    width: 400px;
+    height: 450px;
+    background-color: #0B0016;
+    position: absolute;
+    top: 208vh;
+    left: 75vh;
+}
+
+.img-residential img {
+    display: inherit;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    width: 100%;
+}
+
+.text-residencial {
+    width: 356px;
+    height: 79px;
+    font: 32px Cabin, sans-serif;
+    position: absolute;
+    top: 40vh;
+    color: #E9E3D9;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-weight: 400;
+    display: block;
+}
+
+.img-architecture {
+    width: 400px;
+    height: 450px;
+    background-color: #0B0016;
+    position: absolute;
+    top: 208vh;
+    left: 121vh;
+}
+
+.img-architecture img {
+    display: inherit;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    width: 100%;
+}
+
+.text-architecture {
+    width: 356px;
+    height: 79px;
+    font: 32px Cabin, sans-serif;
+    position: absolute;
+    top: 40vh;
+    color: #E9E3D9;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.pagina3 {
+    height: 120vh;
+    background-color: #1E1E1E;
+background-blend-mode: multiply;
+position: relative;}
+
+#projects {font-size: 215px;
+background-color: #1e1e1e;
+position: absolute;
+top: 10%;
+left: 15%;
+font-weight: normal;
+color: transparent;
+-webkit-text-stroke: 0.5px #f0eac0; 
+}
+
+#imagemvistajanela {
+position: absolute;
+top: 23%;
+left: 15%;}
+
+.retangulo {
+    width: 40%;
+    height: 20vh;
+    background-color: #d6a04c;
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+    transition: 0.5s;
+}
+
+.retangulo:hover {background-color: #1E1E1E;
+color: #D6A04C;}
+
+
+#txtretangulo {
+    color: #ffff;
+    font-size: 32px;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.pagina4 {background-color: #0b0016;
+height: 90vh;
+background-blend-mode: multiply;
+position: relative;}
+
+#mulher {position: absolute;
+top: 20%;
+left: 15%;}
+
+#WhyUs {font-size: 40px;
+color: white;
+margin-bottom: 21px;
+position: absolute;
+top: 23%;
+right: 30%;}
+
+#txtWhyUs {
+    font-size: 27px;
+    width: 20%;
+    color: white;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 30%;
+    right: 19%;
+}
+
+#btn_learnmore {position: absolute;
+top: 60%;
+right: 31%;
+font: 16px;
+color: #D6A04C;
+padding: 14px 32px;
+background-color: transparent;
+border: solid 1px white;
+transition: 0.5s;
+}
+
+#btn_learnmore:hover {background-color: white;
+color: #D6A04C;}
+
+
+.pagina5 {background-color: #0a0a0a;
+height: 50vh;
+background-blend-mode: multiply;
+position: relative;}
+
+#imagempequena {position: absolute;
+top: 17%;
+left: 45%;}
+
+#txtparagrafo {font-size: 24px;
+width: 60%;
+
+margin-bottom: 32px;
+padding: 0px 200px;
+color: white;
+position: absolute;
+top: 25%;
+left: 17%;
+
+}
+
+
+#rodape {
+    position: absolute;
+    top: 73%;
+    left: 41%;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#imagemceo {position: absolute;
+top: 55%;
+left: 44%;}
+
+
+#play{color: white;
+    position: absolute;
+    top: 45%;
+    right: 21%;
+    font-size: 20px;
+    display: inline-block;
+    font-family: "Questrial", sans-serif;}
+    
+    
+    #play>a{display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 30px;
+    position: relative;}
+    
+    #play>a>svg{height: 35px;
+    fill: #D6A04C;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-45%, -50%);}
+    
+    #play>a::after { content: "";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 50%;
+    z-index: 0;
+    }
+    
+    #play>a::before { content: "";
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background-color: transparent;
+        border: solid, 1px #D6A04C;
+        border-radius: 50%;
+        z-index: 0;
+        }
+    
+    #play>a:hover{background-color: #D6A04C;
+    transition: 0.3s;}
+    
+    #play>a:hover>svg{fill: white;}
+
+    .pagina6 {background-color: #0b0016;
+    height: 70vh;
+background-blend-mode: multiply;
+position: relative;}
+
+#retangulo1p5 {
+    position: absolute;
+    width: 65%;
+    top: 0%;
+    left: 15%;
+    font-size: 16px;
+    color: #D6A04C;
+    padding: 14px 32px;
+    background-color: transparent;
+    border: solid 1px #D6A04C;
+    transition: 0.5s;
+}
+
+#retangulo1p5:hover {background-color: #1e1e1e;
+color: #D6A04C;}
+
+#architectureDesign {position: absolute;
+top: 10%;
+left: 30%;
+color: white;
+font-size: 14px;
+margin-bottom: 20px;}
+
+#curating {position: absolute;
+top: 30%;
+left: 30%;
+color: white;
+font-size: 32px;
+margin-bottom: 25px;}
+
+#data {position: absolute;
+top: 70%;
+left: 30%;
+color: white;
+font-size: 14px;
+margin-bottom: 15px;}
+
+#retangulo2p5 {position: absolute;
+width: 65%;
+top: 50%;
+left: 15%;
+font-size: 16px;
+color: #D6A04C;
+padding: 14px 32px;
+background-color: transparent;
+border: solid 1px #D6A04C;
+transition: 0.5s;}
+
+#retangulo2p5:hover {background-color: #1e1e1e;
+color: #D6A04C;}
+
+.ad{
+    font-size: 15px;
+}
+
+.archidesi {
+    font-size: 15px;
+}
